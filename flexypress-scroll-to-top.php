@@ -15,6 +15,9 @@
 
 if ( !defined( 'ABSPATH' ) ) exit;
 
+define( 'FPSTT_BASE', plugin_dir_path( __FILE__ ) );
+define( 'FPSTT_URL', plugin_dir_url( __FILE__ ) );
+
 require_once 'app/Core.php';
 
 new FlexyPress_Scroll_To_Top_Core();

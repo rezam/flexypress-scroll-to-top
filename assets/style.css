@@ -1,0 +1,17 @@
+#flexypress-scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
+
+#flexypress-scroll-to-top a {
+    background-color: #0093ff;
+    color: #FFFFFF;
+    border: 1px solid #0093ff;
+    width: 60px;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
