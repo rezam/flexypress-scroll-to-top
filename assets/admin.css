@@ -1,3 +1,30 @@
-.flexypress-scroll-to-top-wrap {
-    
+.flexypress-scroll-to-top-wrap .option-group {
+    display: flex;
+    align-items: center;
+}
+
+.flexypress-scroll-to-top-wrap .option-group p {
+    margin-right: 30px;
+    font-weight: bold;
+}
+
+.flexypress-scroll-to-top-wrap .option-group label {
+    padding-right: 5px;
+}
+
+.flexypress-scroll-to-top-wrap .option-group input {
+    margin: 0 10px 0 0;
+}
+
+.flexypress-scroll-to-top-wrap input[type="submit"] {
+    background-color: #FFFFFF;
+    padding: 10px;
+    margin: 40px 0 0 0;
+    border: 1px solid #000000;
+    cursor: pointer;
+}
+
+.flexypress-scroll-to-top-wrap .option-group.option-group-text,
+.flexypress-scroll-to-top-wrap .option-group.option-group-svg  {
+    display: none;
 }

@@ -16,6 +16,7 @@ class FlexyPress_Scroll_To_Top_Core {
         add_action( 'wp_enqueue_scripts', [ $this, 'enqueue_styles' ] );
         add_action( 'wp_enqueue_scripts', [ $this, 'enqueue_scripts' ] );
         add_action( 'admin_enqueue_scripts', [ $this, 'admin_enqueue_styles' ] );
+        add_action( 'admin_enqueue_scripts', [ $this, 'admin_enqueue_scripts' ] );
         new FlexyPress_Scroll_To_Top_Menu();
         new FlexyPress_Scroll_To_Top_Front();
     }
@@ -37,8 +38,11 @@ class FlexyPress_Scroll_To_Top_Core {
     }
 
     public function enqueue_scripts() {
-        if( is_admin() ) return;
         wp_enqueue_script( 'fp_scroll_to_top_js', FPSTT_URL . '/assets/script.js', [ 'jquery' ], FPSTT_VERSION, true );
+    }
+
+    public function admin_enqueue_scripts() {
+        wp_enqueue_script( 'fp_scroll_to_top_admin_js', FPSTT_URL . '/assets/admin.js', [ 'jquery' ], FPSTT_VERSION, true );
     }
 
 }
