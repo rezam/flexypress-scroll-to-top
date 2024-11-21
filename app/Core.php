@@ -22,7 +22,7 @@ class FlexyPress_Scroll_To_Top_Core {
     }
 
     public function load_langs_files() {
-        load_theme_textdomain( 'fpscrolltotop', get_template_directory() . '/languages' );
+        load_theme_textdomain( 'flexypress-scroll-to-top', get_template_directory() . '/languages' );
     }
 
     public function define_constants() {
@@ -30,6 +30,7 @@ class FlexyPress_Scroll_To_Top_Core {
     }
 
     public function enqueue_styles() {
+        if( is_admin() ) return;
         wp_enqueue_style( 'fp_scroll_to_top_css', FPSTT_URL . '/assets/style.css', [], FPSTT_VERSION );
     }
 
@@ -38,6 +39,7 @@ class FlexyPress_Scroll_To_Top_Core {
     }
 
     public function enqueue_scripts() {
+        if( is_admin() ) return;
         wp_enqueue_script( 'fp_scroll_to_top_js', FPSTT_URL . '/assets/script.js', [ 'jquery' ], FPSTT_VERSION, true );
     }
 

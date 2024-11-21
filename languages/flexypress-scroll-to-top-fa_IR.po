@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FlexyPress Scroll to Top\n"
-"POT-Creation-Date: 2024-11-21 09:30+0330\n"
-"PO-Revision-Date: 2024-11-21 09:32+0330\n"
+"POT-Creation-Date: 2024-11-21 09:46+0330\n"
+"PO-Revision-Date: 2024-11-21 09:46+0330\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -23,12 +23,12 @@ msgstr ""
 
 #: app/Admin/Admin.php:15 app/Admin/Admin.php:16
 msgid "FP Scroll to Top"
-msgstr "FP Scroll to Top"
+msgstr ""
 
 #. Plugin Name of the plugin/theme
 #: app/Admin/View.php:8
 msgid "FlexyPress Scroll to Top"
-msgstr "FlexyPress Scroll to Top"
+msgstr ""
 
 #: app/Admin/View.php:13
 msgid "Type"
@@ -36,68 +36,68 @@ msgstr "نوع"
 
 #: app/Admin/View.php:15
 msgid "Icon"
-msgstr "آیکن"
+msgstr ""
 
 #: app/Admin/View.php:18 app/Admin/View.php:23
 msgid "Text"
-msgstr "متن"
+msgstr ""
 
 #: app/Admin/View.php:25
 msgid "Top"
-msgstr "بالا"
+msgstr ""
 
 #: app/Admin/View.php:29
 msgid "SVG/Img URL"
-msgstr "نشانی تصویر/SVG"
+msgstr ""
 
 #: app/Admin/View.php:35
 msgid "Side"
-msgstr "سمت"
+msgstr ""
 
 #: app/Admin/View.php:37
 msgid "Left"
-msgstr "چپ"
+msgstr ""
 
 #: app/Admin/View.php:40
 msgid "Right"
-msgstr "راست"
+msgstr ""
 
 #: app/Admin/View.php:45
 msgid "Color"
-msgstr "رنگ"
+msgstr ""
 
 #: app/Admin/View.php:51
 msgid "Background color"
-msgstr "رنگ زمینه"
+msgstr ""
 
 #: app/Admin/View.php:56
 msgid "Border radius"
-msgstr "گردی حاشیه"
+msgstr ""
 
 #: app/Admin/View.php:59
 msgid "px"
-msgstr "px"
+msgstr ""
 
 #: app/Admin/View.php:63
 msgid "Custom CSS"
-msgstr "CSS سفارشی"
+msgstr ""
 
 #: app/Admin/View.php:68
 msgid "Save Settings"
-msgstr "ذخیره تنظیمات"
+msgstr ""
 
 #: app/Front/View.php:10
 msgid "Go to top icon"
-msgstr "آیکن رفتن به بالا"
+msgstr ""
 
 #. Description of the plugin/theme
 msgid "Customizable scroll to top button."
-msgstr "دکمه سفارش‌شدنی رفتن به بالا."
+msgstr ""
 
 #. Author of the plugin/theme
 msgid "rezamas"
-msgstr "rezamas"
+msgstr ""
 
 #. Author URI of the plugin/theme
 msgid "https://flexypress.com/flexypress-scroll-to-top"
-msgstr "https://flexypress.com/flexypress-scroll-to-top"
+msgstr ""
